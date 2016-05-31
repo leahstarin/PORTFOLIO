@@ -35,7 +35,7 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/background.jpg) no-repeat center center;
+    background: url(../img/background2.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -74,10 +74,12 @@ h6 {
         display: block;
         margin-bottom: 20px;
         padding: 0;
+
     }
 
     ul.intro-social-buttons > li:last-child {
         margin-bottom: 0;
+
     }
 
     .intro-divider {
@@ -85,11 +87,18 @@ h6 {
     }
 }
 
+/*.intro-social-buttons li {
+  text-decoration: none;
+  color: black;
+}*/
+
 .network-name {
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 2px;
+    text-decoration: none;
+    color: black;
 }
 
 .content-section-a {
